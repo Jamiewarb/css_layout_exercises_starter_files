@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 800px;
+    margin: 50px auto;
+}
+.container {
+    font-size: 0;
+    height: 300px;
+}
+.container--small {
+    height: 200px;
+}
+.half, .third {
+    display: inline-block;
+    height: 100%;
+    border: 1px solid #000;
+}
+.half {
+    width: calc( 100% / 2 );
+}
+.third {
+    width: calc( 100% / 3 );
+}
+
+.green {
+    background-color: #3f7812;
+}
+.blue {
+    background-color: #0f50f7;
+}
+.grey {
+    background-color: #808080;
+}
+.black {
+    background-color: #000;
+}
+.orange {
+    background-color: #f1a541;
+}
